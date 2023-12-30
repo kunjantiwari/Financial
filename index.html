@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial & Investment</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+    <img src="images/logo1.jpeg" alt="Company Logo" height="30">
+</a>
+
+            <a class="navbar-brand" href="#">Financial & Investment</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#investment">Investment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#progress">Progress</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#partners">Partners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>1. Manage and grow assets for individuals and businesses.</p>
+            <p>2. Offer wealth management and investment services.</p>
+            <p>3. Provide financial planning and risk management advice.</p>
+            <p>4. Specialize in corporate finance and advisory services.</p>
+            <p>5. Offer insurance products for risk mitigation.</p>
+            <p>6. Conduct research, analysis, and market assessments.</p>
+            <p>7. Ensure regulatory compliance and client education.</p>
+            <p>8. Aim to help clients achieve financial goals while managing risks and maximizing returns.</p>
+        </div>
+    </section>
+
+    <!-- Services Section with Accordion -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="accordion" id="servicesAccordion">
+                <div class="card">
+                    <div class="card-header" id="service1">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                data-target="#collapseService1" aria-expanded="true" aria-controls="collapseService1">
+                                Service 1
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseService1" class="collapse show" aria-labelledby="service1"
+                        data-parent="#servicesAccordion">
+                        <div class="card-body">
+                            Wealth Management: Tailored advice and strategies to help individuals and businesses                                                           grow and protect their wealth.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Section with Tabs -->
+    <section id="investment" class="py-5">
+        <div class="container">
+            <h2>Investment Options</h2>
+            <ul class="nav nav-tabs" id="investmentTabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#tab1" role="tab"
+                        aria-controls="tab1" aria-selected="true">Option 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="tab2-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2"
+                        aria-selected="false">Option 2</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="investmentTabsContent">
+                <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+                    Stocks: Investments in shares of publicly traded companies, offering potential capital appreciation and dividends but subject to market volatility.
+                </div>
+                <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                    Bonds: Fixed-income securities issued by governments or corporations, providing regular interest payments and the return of principal upon maturity.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Bar Section -->
+    <section id="progress" class="py-5 bg-light">
+        <div class="container">
+            <h2>Progress in Investments</h2>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                    aria-valuemin="0" aria-valuemax="100">75%</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="py-5">
+    <div class="container">
+        <h2>Latest News</h2>
+        <div class="row">
+            <div class="col-md-4">
+                    <img src="images/news1.jpeg" alt="News Image 1" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                    <img src="images/news2.jpeg" alt="News Image 2" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                    <img src="images/news3.jpeg" alt="News Image 3" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-light">
+    <div class="container">
+        <h2>Testimonials</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="testimonial">
+                    <p>""I've been with FINANCIAL ARCHITECTURE for over a decade now, and their expertise has been invaluable. Their proactive approach to investment management aligns perfectly with my long-term goals. The team's guidance has not only secured my financial future but has also provided consistent growth, exceeding my expectations.""</p>
+                    <cite>ABHILASHA TIWARI, Client since 2010.</cite>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="testimonial">
+                    <p>""As a business owner, navigating the complexities of finance can be daunting.FINANCIAL ARCHITECTURE not only helped streamline our corporate finance strategies but also provided innovative solutions for expansion. Their personalized attention and strategic insights have been instrumental in achieving our financial milestones.""</p>
+                    <cite>RAVIKANT SINGH, Business Client.</cite>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Partners Section -->
+   <section id="partners" class="py-5">
+    <div class="container">
+        <h2>Our Partners</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/logo2.jpeg" alt="Partner 1" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="images/logo3.jpeg" alt="Partner 2" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="images/logo4.jpeg" alt="Partner 3" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="images/logo5.jpeg" alt="Partner 4" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark">
+        <div class="container text-light">
+            <h2>Contact Us</h2>
+            <p>Fill out the form below to get in touch:</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-light">Submit</button>
+            </form>
+        </div>
+    </section
